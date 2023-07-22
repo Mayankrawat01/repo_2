@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 39px;
+    align-items: center;
+    position: sticky ;
+}
+.part-one{
+    color: green;
+    font-size: 20px;
+}
+.part-two button{
+    background-color: #3d933d;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 36px 0px 22px;
+}
+.two ul{
+    display: flex;
+    list-style: none;
+}
+.two ul li{
+    font-size: 20px;
+    margin-right: 42px;
+}
+.three button{
+    width: 151px;
+    height: 41px;
+    border: 2px solid white;
+    background-color: #f9f5f5;
+    font-size: 17px;
+}
+.container{
+    background-image: url("./photo/istockphoto-1136422297-612x612.jpg");
+    width: 1262px;
+    height: 400px;
+    background-size:contain;
+    /* opacity: 0.7; */
+}
+.container center p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 54px;
+    margin-top: 77px;
+    color:#3f6b4d;
+}
+.container center h2{
+    font-size: 36px;
+    color: #090909;
+}
+.center center{
+    font-size: 30px;
+}
+.center center h1{
+    font-size: 100px;
+}
+.center center h1 i{
+     font-size: 22px;
+    position: absolute;
+    margin-top: 11px;
+}
+.center center p{
+    font-family: 'Dancing Script', cursive;   
+}
+.card-1{
+    border: 2px solid black;
+    width: 300px;
+    height: 324px;
+}
+.upper-one img{
+    width: 262px;
+    padding: 7px 11px;
+    box-shadow: 12px 2px 5px 5px rgba(0, 0, 255, .2);
+}
+.down-one h2{
+    padding:  34px 109px;
+}
+.one-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.second-sctn{
+display: flex;
+ 
+}
+.second-sctn img{
+ /* width: ;    */
+ margin-left:40px; 
+ margin-top: 60px;
+}
+.carousel-control-next-icon{
+    color: #090909;
+}
